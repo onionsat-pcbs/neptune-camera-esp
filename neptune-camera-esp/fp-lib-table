@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "neptune-camera-esp-footprints")(type "KiCad")(uri "${KIPRJMOD}/neptune-camera-esp-footprints.pretty")(options "")(descr ""))
+)
