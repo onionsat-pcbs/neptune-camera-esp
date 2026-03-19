@@ -4547,6 +4547,26 @@
 		)
 		(uuid "3916d480-3ee9-4d43-a049-d2796b063b62")
 	)
+	(label "LTE_RESET"
+		(at 78.74 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41beb7a9-b46e-415f-ab61-45a32916ba4e")
+	)
+	(label "LTE_PWRKEY"
+		(at 78.74 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "426cab9c-6cf8-4a74-aca0-10f31e7fdbe8")
+	)
 	(label "HSYNC"
 		(at 80.01 91.44 0)
 		(effects
