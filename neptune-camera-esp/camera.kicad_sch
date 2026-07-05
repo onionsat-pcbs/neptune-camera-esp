@@ -1711,7 +1711,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 57.15) (xy 63.5 57.15)
+			(xy 50.8 57.15) (xy 52.07 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1909,56 +1909,6 @@
 		)
 		(uuid "f961d4cb-f84d-4276-8306-b13fd120f37a")
 	)
-	(label "CameraPWDN"
-		(at 62.23 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3da634dc-dbfd-498d-8717-3cd0e4d9bc02")
-	)
-	(label "XCLK"
-		(at 63.5 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "81a48484-7e19-400a-be1e-46efb787072b")
-	)
-	(label "CameraPWDN"
-		(at 158.75 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cbb9f7a0-fc69-46f3-b599-a3d678a5b8f3")
-	)
-	(label "CameraReset"
-		(at 158.75 26.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ce59e526-c147-442a-804e-5b44d4bfaf26")
-	)
-	(label "CameraReset"
-		(at 62.23 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3fe870b-6a10-4f55-aaee-b87107a7c51a")
-	)
 	(global_label "2.8V_OV5640"
 		(shape input)
 		(at 99.06 34.29 0)
@@ -2018,6 +1968,17 @@
 		)
 		(uuid "0f3d492d-b311-4eb2-a6f6-ac24b0105afb")
 	)
+	(hierarchical_label "XCLK"
+		(shape input)
+		(at 52.07 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "158b8978-c993-4887-b80a-7678848a06b9")
+	)
 	(hierarchical_label "D2"
 		(shape output)
 		(at 52.07 72.39 0)
@@ -2040,6 +2001,17 @@
 		)
 		(uuid "30aeb332-74d0-48cf-a555-0ad4da8f0af1")
 	)
+	(hierarchical_label "CameraReset"
+		(shape input)
+		(at 158.75 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3448f7c2-9366-4301-8c38-3962d3a4eb2f")
+	)
 	(hierarchical_label "SCL"
 		(shape bidirectional)
 		(at 52.07 36.83 0)
@@ -2061,6 +2033,17 @@
 			(justify left)
 		)
 		(uuid "6748323d-3159-48a8-98e0-6b2ec3250790")
+	)
+	(hierarchical_label "CameraPWDN"
+		(shape input)
+		(at 158.75 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71435838-1872-4dd9-9337-2c02630eeecf")
 	)
 	(hierarchical_label "D4"
 		(shape output)
@@ -2117,6 +2100,17 @@
 		)
 		(uuid "d90e0cdb-ffb0-46f0-beea-6be0a16ee463")
 	)
+	(hierarchical_label "CameraPWDN"
+		(shape input)
+		(at 62.23 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ddc767b3-2164-4cf2-9521-15cf56765355")
+	)
 	(hierarchical_label "D3"
 		(shape output)
 		(at 52.07 77.47 0)
@@ -2127,6 +2121,17 @@
 			(justify left)
 		)
 		(uuid "e62b88d3-b3f6-43ab-b014-dfc4c0028054")
+	)
+	(hierarchical_label "CameraReset"
+		(shape input)
+		(at 62.23 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee39755f-6e5f-4245-90fc-cb3632420002")
 	)
 	(hierarchical_label "D7"
 		(shape output)

@@ -3362,6 +3362,12 @@
 		(uuid "562a0954-310a-474e-b5e2-570bc51c8f21")
 	)
 	(junction
+		(at 31.75 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "606dd419-0700-481c-9783-2774066f0062")
+	)
+	(junction
 		(at 50.8 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3390,6 +3396,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85e1ef76-36d7-462e-a5ff-5d04c1af6317")
+	)
+	(junction
+		(at 31.75 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "867641ff-5cfa-413f-b480-58cdae3af751")
 	)
 	(junction
 		(at 46.99 48.26)
@@ -3755,6 +3767,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 73.66) (xy 31.75 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f736934-5152-4026-b866-24786d4052ef")
+	)
+	(wire
+		(pts
 			(xy 125.73 40.64) (xy 129.54 40.64)
 		)
 		(stroke
@@ -3845,7 +3867,17 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 81.28) (xy 83.82 81.28)
+			(xy 78.74 63.5) (xy 80.01 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f973651-6a95-4021-99e1-7efd0dfea292")
+	)
+	(wire
+		(pts
+			(xy 78.74 81.28) (xy 81.28 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3865,16 +3897,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 78.74) (xy 92.71 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "523c8975-0f3e-4c25-afc2-72bb96c58210")
-	)
-	(wire
-		(pts
 			(xy 46.99 177.8) (xy 44.45 177.8)
 		)
 		(stroke
@@ -3885,7 +3907,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 76.2) (xy 83.82 76.2)
+			(xy 78.74 76.2) (xy 81.28 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3912,16 +3934,6 @@
 			(type default)
 		)
 		(uuid "59c41d03-eaa1-4206-a62c-89c4718b870a")
-	)
-	(wire
-		(pts
-			(xy 88.9 81.28) (xy 92.71 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a29f19e-f6cb-42cc-9c89-b473e404a009")
 	)
 	(wire
 		(pts
@@ -3985,6 +3997,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 83.82) (xy 48.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8296b6-14f7-4782-904c-55584a60b3a8")
+	)
+	(wire
+		(pts
 			(xy 116.84 30.48) (xy 118.11 30.48)
 		)
 		(stroke
@@ -3992,6 +4014,16 @@
 			(type default)
 		)
 		(uuid "6ed6bfcd-ad9f-46a8-bcc6-f531928593c3")
+	)
+	(wire
+		(pts
+			(xy 78.74 86.36) (xy 81.28 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "745668d2-3b99-4d7d-8545-5d303d9bd60c")
 	)
 	(wire
 		(pts
@@ -4005,7 +4037,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 142.24) (xy 124.46 142.24)
+			(xy 123.19 140.97) (xy 124.46 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4045,6 +4077,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 180.34) (xy 124.46 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862d746d-7aaf-4d58-9a59-2b7f6728cc10")
+	)
+	(wire
+		(pts
 			(xy 129.54 30.48) (xy 130.81 30.48)
 		)
 		(stroke
@@ -4055,13 +4097,43 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 73.66) (xy 78.74 73.66)
+			(xy 123.19 177.8) (xy 124.46 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8826ac7e-9db2-4285-8d8d-702bde9e0847")
+	)
+	(wire
+		(pts
+			(xy 31.75 73.66) (xy 48.26 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8829d214-15ab-4d31-a7a1-b43f693d2aac")
+	)
+	(wire
+		(pts
+			(xy 78.74 73.66) (xy 81.28 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "884215d0-a860-488c-8727-26873c9fccde")
+	)
+	(wire
+		(pts
+			(xy 30.48 71.12) (xy 31.75 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a12cadb-8141-4889-ae92-c0733f1e3f77")
 	)
 	(wire
 		(pts
@@ -4105,6 +4177,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 78.74) (xy 48.26 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92fd8f7e-f446-4841-98cf-fe26f2d86010")
+	)
+	(wire
+		(pts
 			(xy 63.5 31.75) (xy 63.5 40.64)
 		)
 		(stroke
@@ -4135,7 +4217,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 137.16) (xy 124.46 137.16)
+			(xy 123.19 135.89) (xy 124.46 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4205,7 +4287,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 139.7) (xy 124.46 139.7)
+			(xy 123.19 138.43) (xy 124.46 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4225,6 +4307,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 88.9) (xy 48.26 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b049ed21-53d0-4820-b305-70eaa7ae9011")
+	)
+	(wire
+		(pts
 			(xy 64.77 177.8) (xy 67.31 177.8)
 		)
 		(stroke
@@ -4232,6 +4324,16 @@
 			(type default)
 		)
 		(uuid "b0be146f-9a92-4054-9fa3-50a1003b09aa")
+	)
+	(wire
+		(pts
+			(xy 31.75 67.31) (xy 31.75 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b22c755a-f2f8-490d-a074-47eae0815191")
 	)
 	(wire
 		(pts
@@ -4275,16 +4377,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 76.2) (xy 92.71 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf751a42-0fee-42c0-a920-740d409b7e8e")
-	)
-	(wire
-		(pts
 			(xy 123.19 162.56) (xy 124.46 162.56)
 		)
 		(stroke
@@ -4295,6 +4387,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 91.44) (xy 81.28 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c39b5d77-1918-4f8c-8c59-3c4dd9b467f3")
+	)
+	(wire
+		(pts
 			(xy 31.75 129.54) (xy 31.75 128.27)
 		)
 		(stroke
@@ -4302,6 +4404,26 @@
 			(type default)
 		)
 		(uuid "c4dbd56d-5ebb-49c5-abf1-c2224b98174b")
+	)
+	(wire
+		(pts
+			(xy 123.19 143.51) (xy 124.46 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c64020ae-85a5-4f41-ba54-d07573b38492")
+	)
+	(wire
+		(pts
+			(xy 45.72 76.2) (xy 48.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c687464e-7bd1-4242-8b05-f17b187f9c9b")
 	)
 	(wire
 		(pts
@@ -4322,6 +4444,16 @@
 			(type default)
 		)
 		(uuid "ca422ef5-2c4c-42ed-a7ba-f67cb1ee1cd7")
+	)
+	(wire
+		(pts
+			(xy 45.72 81.28) (xy 48.26 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca7c3d07-c0f1-4fe0-873b-5f701e87a346")
 	)
 	(wire
 		(pts
@@ -4352,6 +4484,16 @@
 			(type default)
 		)
 		(uuid "d582a8e7-cdbb-4e77-bbc2-d3c9fba1c9ca")
+	)
+	(wire
+		(pts
+			(xy 31.75 71.12) (xy 48.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7bb2ff3-7506-48ee-9931-cf8ae7479b20")
 	)
 	(wire
 		(pts
@@ -4405,6 +4547,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 73.66) (xy 31.75 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e70550-9488-4c9a-8399-9902ce96cd65")
+	)
+	(wire
+		(pts
 			(xy 72.39 153.67) (xy 76.2 153.67)
 		)
 		(stroke
@@ -4422,6 +4574,16 @@
 			(type default)
 		)
 		(uuid "e81cee66-acc7-49db-ada5-68ae4bb744b5")
+	)
+	(wire
+		(pts
+			(xy 45.72 86.36) (xy 48.26 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b49933-5501-40d8-b2c5-565d68ab1758")
 	)
 	(wire
 		(pts
@@ -4445,17 +4607,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 73.66) (xy 92.71 73.66)
+			(xy 78.74 93.98) (xy 81.28 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef31ed5c-c081-4a72-b14b-a50f2f8bf241")
+		(uuid "f6750f59-7588-441c-8f5c-6e3c5417eaf9")
 	)
 	(wire
 		(pts
-			(xy 78.74 78.74) (xy 83.82 78.74)
+			(xy 78.74 78.74) (xy 81.28 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4483,15 +4645,15 @@
 		)
 		(uuid "fd84c7ec-ddb8-40c3-8fa3-a7150f8b1d8b")
 	)
-	(label "D8"
-		(at -10.16 92.71 180)
+	(label "HSYNC"
+		(at 45.72 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "0542cebb-2df4-479c-aaa2-c951efe506bf")
+		(uuid "03a8d0c2-5cfe-415f-b2a9-fd8848cff0a2")
 	)
 	(label "I2C_OBC_SCL"
 		(at -10.16 95.25 180)
@@ -4514,14 +4676,24 @@
 		(uuid "07956488-d30f-47f9-b18d-79dc733a41b7")
 	)
 	(label "VSYNC"
-		(at -17.78 104.14 0)
+		(at 45.72 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0c0ecb42-05d8-40e1-84c3-695fe0f179ce")
+	)
+	(label "D9"
+		(at 45.72 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e2969b9-d575-4764-98e9-1ebd7dd5fbcf")
 	)
 	(label "OV5640_SCL"
 		(at 124.46 172.72 0)
@@ -4533,8 +4705,18 @@
 		)
 		(uuid "0eb34323-3ab6-4030-b91c-dfe50731f1ba")
 	)
+	(label "CAM_PWDN"
+		(at 124.46 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cb9c6f4-d38e-456e-8f6e-79ca79d4a3a2")
+	)
 	(label "PCLK"
-		(at 124.46 142.24 0)
+		(at 124.46 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4573,15 +4755,15 @@
 		)
 		(uuid "28217b0e-6d0f-4db6-a618-70be50540840")
 	)
-	(label "OV5640_SCL"
-		(at -21.59 64.77 0)
+	(label "OV5640_SDA"
+		(at 30.48 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "2d85ddee-1227-470a-861d-10a71fd23f89")
+		(uuid "30aa86fc-0415-4e3a-97ef-ad4b71b23290")
 	)
 	(label "EN"
 		(at 138.43 30.48 0)
@@ -4593,6 +4775,16 @@
 		)
 		(uuid "30e09bb5-8a31-40a2-8c3f-e2b7fa11b204")
 	)
+	(label "D8"
+		(at 80.01 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "350c7fb5-3ebb-4a76-b845-074600341ba5")
+	)
 	(label "D5"
 		(at 124.46 154.94 0)
 		(effects
@@ -4602,6 +4794,16 @@
 			(justify left bottom)
 		)
 		(uuid "3916d480-3ee9-4d43-a049-d2796b063b62")
+	)
+	(label "D7"
+		(at 81.28 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a015582-6cf7-45ec-8f73-77d7d28997f4")
 	)
 	(label "LTE_RESET"
 		(at -17.78 113.03 0)
@@ -4623,18 +4825,8 @@
 		)
 		(uuid "426cab9c-6cf8-4a74-aca0-10f31e7fdbe8")
 	)
-	(label "HSYNC"
-		(at -17.78 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "485dd8de-5437-4dd8-8b15-7be0a8d3a148")
-	)
 	(label "D5"
-		(at 92.71 76.2 0)
+		(at 81.28 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4652,6 +4844,16 @@
 			(justify left bottom)
 		)
 		(uuid "4a56b2bd-c297-4641-9386-799be1926f88")
+	)
+	(label "PCLK"
+		(at 124.46 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c54d919-dd97-483c-9209-6a3f65b50abb")
 	)
 	(label "I2C_OBC_SCL"
 		(at 179.07 30.48 180)
@@ -4683,15 +4885,15 @@
 		)
 		(uuid "5a8985e2-bfd3-4fda-b3c2-a6ab1a076476")
 	)
-	(label "OV5640_SDA"
-		(at -21.59 67.31 0)
+	(label "PCLK"
+		(at 45.72 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "66bbc1f8-2a99-4180-830d-c6f2220cafc8")
+		(uuid "5eee2c45-6931-4ed2-9c3e-d0a68e85b01f")
 	)
 	(label "EN"
 		(at 46.99 46.99 180)
@@ -4703,8 +4905,18 @@
 		)
 		(uuid "6a929606-f11d-4e1c-b83e-60dd48f8fb2e")
 	)
+	(label "D6"
+		(at 81.28 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6efa096b-193f-4556-aaa8-93b24477cb1c")
+	)
 	(label "VSYNC"
-		(at 124.46 139.7 0)
+		(at 124.46 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4734,7 +4946,7 @@
 		(uuid "7f21c185-2b70-48f3-a56c-1de3dff0a098")
 	)
 	(label "D2"
-		(at 92.71 73.66 0)
+		(at 81.28 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4742,16 +4954,6 @@
 			(justify left bottom)
 		)
 		(uuid "8b74aea8-ba10-4aea-953e-cf4af0e4e22e")
-	)
-	(label "D6"
-		(at -10.16 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8c7605ec-a37d-428f-9406-9fabf380db40")
 	)
 	(label "D8"
 		(at 124.46 162.56 0)
@@ -4773,16 +4975,6 @@
 		)
 		(uuid "9c0af539-c892-4e48-9abb-1e5942e1d10a")
 	)
-	(label "D9"
-		(at -10.16 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9c69f957-c444-48b2-8c44-c6fc67661428")
-	)
 	(label "PRG_UART_TX"
 		(at 203.2 67.31 180)
 		(effects
@@ -4792,6 +4984,26 @@
 			(justify right bottom)
 		)
 		(uuid "9cd19db1-47b7-427b-95b9-e77f607b03ab")
+	)
+	(label "CAM_RESET"
+		(at 45.72 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3b8fa93-44d8-44b6-8f8e-4432fefde247")
+	)
+	(label "OV5640_SCL"
+		(at 30.48 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa995f3d-9e71-4592-82fa-95e71e13bc7e")
 	)
 	(label "USB_DN"
 		(at 179.07 45.72 180)
@@ -4803,18 +5015,28 @@
 		)
 		(uuid "ad0cf7b2-21bd-4936-a332-d690bbd3cca4")
 	)
-	(label "D7"
-		(at -10.16 90.17 180)
+	(label "CAM_PWDN"
+		(at 45.72 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "b0e6fb1e-bd74-482b-b029-a33e1b950754")
+		(uuid "b6c3e496-fc94-422c-b96d-51e947388434")
+	)
+	(label "PCLK"
+		(at 81.28 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c71861e4-e124-4846-9568-93d564ed053e")
 	)
 	(label "D3"
-		(at 92.71 78.74 0)
+		(at 81.28 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4884,7 +5106,7 @@
 		(uuid "d5f9d7ad-1ca9-4a8b-9a80-2a170a66ffe1")
 	)
 	(label "D4"
-		(at 92.71 81.28 0)
+		(at 81.28 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4894,7 +5116,7 @@
 		(uuid "d9ad577d-4903-49f2-a3c2-81ca08ef624d")
 	)
 	(label "HSYNC"
-		(at 124.46 137.16 0)
+		(at 124.46 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4923,16 +5145,6 @@
 		)
 		(uuid "f01a1204-855c-43f6-803e-6b2d82719b0f")
 	)
-	(label "PCLK"
-		(at -10.16 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f048440a-837f-4ada-bac2-ba3cea6faed9")
-	)
 	(label "BOOT"
 		(at 116.84 63.5 180)
 		(effects
@@ -4942,6 +5154,16 @@
 			(justify right bottom)
 		)
 		(uuid "f44b5c1f-8828-466a-9b9e-b200e7f0f411")
+	)
+	(label "CAM_RESET"
+		(at 124.46 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fde5b6b2-c533-4d21-b1be-99ac3c88f76c")
 	)
 	(global_label "1.5V_OV5640"
 		(shape output)
@@ -5603,85 +5825,6 @@
 			(project "neptune-camera-esp"
 				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 86.36 81.28 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "176d318d-bf9f-486d-b982-ef8d74904f6b")
-		(property "Reference" "R10"
-			(at 86.36 81.28 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 89.662 80.01 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 86.36 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 86.36 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f9e2a2c0-8cc2-46f4-9374-9e0468c8ec55")
-		)
-		(pin "2"
-			(uuid "294a3c36-2667-4855-8749-bc798b5e4854")
-		)
-		(instances
-			(project "neptune-camera-esp"
-				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6383,85 +6526,6 @@
 			(project "neptune-camera-esp"
 				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 86.36 73.66 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "480a59da-8221-4f85-90d1-636b67d8181a")
-		(property "Reference" "R7"
-			(at 86.36 73.66 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 89.662 72.39 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 86.36 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 86.36 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1986f85d-1374-406a-8e25-820bacca2eb1")
-		)
-		(pin "2"
-			(uuid "20c72641-197c-436f-8d36-706865340fae")
-		)
-		(instances
-			(project "neptune-camera-esp"
-				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7979,7 +8043,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at -16.51 57.15 0)
+		(at 31.75 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7987,32 +8051,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "73a9a79c-b972-4eac-a753-0e726f9f86f5")
 		(property "Reference" "R6"
-			(at -13.97 55.8799 0)
+			(at 30.226 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10k"
-			(at -13.97 58.4199 0)
+			(at 30.226 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at -16.51 57.15 0)
+			(at 31.75 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8023,7 +8086,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -16.51 57.15 0)
+			(at 31.75 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8034,7 +8097,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at -16.51 57.15 0)
+			(at 31.75 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8654,6 +8717,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 31.75 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "818b3e29-dcf2-4643-a0c8-21dfd8c5a42e")
+		(property "Reference" "#PWR064"
+			(at 31.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 31.75 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 31.75 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5df80c4f-6807-420d-8611-f794ea9897cc")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 35.56 48.26 270)
 		(unit 1)
@@ -8734,7 +8875,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at -15.24 49.53 0)
+		(at 31.75 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8742,32 +8883,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "84abbc44-52ae-4467-93e8-818ab0893223")
 		(property "Reference" "R5"
-			(at -12.7 48.2599 0)
+			(at 29.972 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10k"
-			(at -12.7 50.7999 0)
+			(at 29.972 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at -15.24 49.53 0)
+			(at 31.75 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8778,7 +8918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -15.24 49.53 0)
+			(at 31.75 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8789,7 +8929,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at -15.24 49.53 0)
+			(at 31.75 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9624,85 +9764,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 86.36 76.2 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a4e825a6-2929-4efb-a506-d7594a31f1f3")
-		(property "Reference" "R8"
-			(at 86.36 76.2 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 89.662 74.93 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 86.36 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 86.36 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04ceb933-dc6f-4481-985b-e6cbaa346964")
-		)
-		(pin "2"
-			(uuid "1c7b9095-12d4-4f72-868b-05ef4939ee0d")
-		)
-		(instances
-			(project "neptune-camera-esp"
-				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 234.95 36.83 270)
 		(unit 1)
@@ -9776,6 +9837,84 @@
 			(project "neptune-camera-esp"
 				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 31.75 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1f90cde-f0c3-40b4-8085-7404e5cba03b")
+		(property "Reference" "#PWR063"
+			(at 31.75 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 31.75 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 31.75 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da67cb60-0ef2-4fb8-ba36-574d81003f0a")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -10332,85 +10471,6 @@
 			(project "neptune-camera-esp"
 				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 86.36 78.74 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e0e12045-7baf-4bb0-b67d-6a1b4012a5f3")
-		(property "Reference" "R9"
-			(at 86.36 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 89.662 77.47 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 86.36 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 86.36 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c6cf6e5d-3987-4852-bc4d-0feb572a0fdf")
-		)
-		(pin "2"
-			(uuid "1ed29fce-86a7-4cf2-b797-48eeb8dc1bc4")
-		)
-		(instances
-			(project "neptune-camera-esp"
-				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11208,8 +11268,8 @@
 		)
 	)
 	(sheet
-		(at 110.49 134.62)
-		(size 12.7 40.64)
+		(at 107.95 132.08)
+		(size 15.24 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11217,13 +11277,14 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 172 0 255 1)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 255 255 1)
 		)
 		(uuid "0926fe47-5ef5-46ea-8672-59359ad1ad72")
 		(property "Sheetname" "Camera(OV5640)"
-			(at 110.49 131.572 0)
+			(at 107.95 129.032 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11234,7 +11295,7 @@
 			)
 		)
 		(property "Sheetfile" "camera.kicad_sch"
-			(at 110.49 132.334 0)
+			(at 107.95 129.794 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11245,7 +11306,7 @@
 			)
 		)
 		(pin "VSYNC" output
-			(at 123.19 139.7 0)
+			(at 123.19 138.43 0)
 			(uuid "8f995331-a588-4df0-8222-8cef46a3ebc1")
 			(effects
 				(font
@@ -11345,7 +11406,7 @@
 			)
 		)
 		(pin "PCLK" output
-			(at 123.19 142.24 0)
+			(at 123.19 140.97 0)
 			(uuid "4d672def-e017-492e-85fe-06ca7cc11b2d")
 			(effects
 				(font
@@ -11365,8 +11426,38 @@
 			)
 		)
 		(pin "HSYNC" output
-			(at 123.19 137.16 0)
+			(at 123.19 135.89 0)
 			(uuid "334cc09f-9cc7-4804-9e92-6236e13cbe50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "XCLK" input
+			(at 123.19 143.51 0)
+			(uuid "7264853e-668e-41c8-ba73-3d18da31d76e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CameraReset" input
+			(at 123.19 180.34 0)
+			(uuid "b76b41f0-6e09-465f-911d-aac184acecff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CameraPWDN" input
+			(at 123.19 177.8 0)
+			(uuid "48bde37f-0944-41c5-81c3-0608346c33cb")
 			(effects
 				(font
 					(size 1.27 1.27)
