@@ -510,214 +510,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "neptune-camera-esp-symbols:ECS-2520MVQ-240-BS-TR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Y2"
-				(at 19.05 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ECS-2520MVQ-240-BS-TR"
-				(at 19.05 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "gaia-camera-footprints:ECS2520MVQ240BSTR"
-				(at 34.29 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" ""
-				(at 34.29 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "24 MHz XO (Standard) HCMOS Oscillator 1.6V ~ 3.6V Enable/Disable 4-SMD, No Lead"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "0.9"
-				(at 34.29 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "520-E2520MVQ240BSTR"
-				(at 34.29 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-2520MVQ-240-BS-TR?qs=i8QVZAFTkqRnDBiWHq9M5A%3D%3D"
-				(at 34.29 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "ECS"
-				(at 34.29 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ECS-2520MVQ-240-BS-TR"
-				(at 34.29 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "ECS-2520MVQ-240-BS-TR_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 33.02 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "TRI-STATE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 38.1 -2.54 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 38.1 0 180)
-					(length 5.08)
-					(name "OUTPUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "neptune-camera-esp-symbols:ov5640"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1610,12 +1402,6 @@
 		(uuid "a113068b-c512-478d-84f1-98c1fedf4144")
 	)
 	(junction
-		(at 67.31 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c81f957b-e4f5-4fad-bae2-444921112ef7")
-	)
-	(junction
 		(at 77.47 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1745,16 +1531,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 82.55) (xy 170.18 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e4832f7-d47c-4db0-960a-d60c4e3c20e1")
-	)
-	(wire
-		(pts
 			(xy 50.8 29.21) (xy 52.07 29.21)
 		)
 		(stroke
@@ -1822,16 +1598,6 @@
 			(type default)
 		)
 		(uuid "6ac483f3-e6d0-4ef6-87c6-7ee77af887ad")
-	)
-	(wire
-		(pts
-			(xy 129.54 85.09) (xy 129.54 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b2323aa-7ff4-420b-8b6a-7af888373f1b")
 	)
 	(wire
 		(pts
@@ -1995,7 +1761,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 67.31) (xy 67.31 67.31)
+			(xy 50.8 67.31) (xy 52.07 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2022,16 +1788,6 @@
 			(type default)
 		)
 		(uuid "ae5f5589-1818-4174-b09c-ee792909538c")
-	)
-	(wire
-		(pts
-			(xy 130.81 85.09) (xy 129.54 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aedd1e80-8d80-4f8b-8b64-340838ed5c40")
 	)
 	(wire
 		(pts
@@ -2085,16 +1841,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 87.63) (xy 129.54 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4380b7e-2ff1-4f80-bcd8-5d8c7419063d")
-	)
-	(wire
-		(pts
 			(xy 64.77 34.29) (xy 64.77 33.02)
 		)
 		(stroke
@@ -2112,26 +1858,6 @@
 			(type default)
 		)
 		(uuid "cc3fe4c9-92b3-47d9-89f2-b2cfbaa03e5c")
-	)
-	(wire
-		(pts
-			(xy 67.31 67.31) (xy 72.39 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc9097fb-eeda-495d-be9b-6d9c35b5e004")
-	)
-	(wire
-		(pts
-			(xy 67.31 71.12) (xy 68.58 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3885bed-e4f6-4438-83cf-ba72e6994d9c")
 	)
 	(wire
 		(pts
@@ -2155,26 +1881,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 85.09) (xy 170.18 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de606c39-073a-4652-9804-9962d9b9735d")
-	)
-	(wire
-		(pts
-			(xy 129.54 82.55) (xy 130.81 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e74f6940-9bb0-4ced-a175-fbb4f65a1f5a")
-	)
-	(wire
-		(pts
 			(xy 161.29 26.67) (xy 163.83 26.67)
 		)
 		(stroke
@@ -2195,16 +1901,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 67.31) (xy 67.31 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4f39294-d0de-4be0-b57f-f13d85884b56")
-	)
-	(wire
-		(pts
 			(xy 104.14 49.53) (xy 91.44 49.53)
 		)
 		(stroke
@@ -2212,16 +1908,6 @@
 			(type default)
 		)
 		(uuid "f961d4cb-f84d-4276-8306-b13fd120f37a")
-	)
-	(label "XCLK"
-		(at 128.27 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "017dd5a9-c9be-477d-9bb3-cc40bb7e7d2c")
 	)
 	(label "CameraPWDN"
 		(at 62.23 44.45 0)
@@ -2411,7 +2097,7 @@
 	)
 	(hierarchical_label "PCLK"
 		(shape output)
-		(at 72.39 67.31 0)
+		(at 52.07 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2673,85 +2359,6 @@
 			(project "neptune-camera-esp"
 				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5/0926fe47-5ef5-46ea-8672-59359ad1ad72"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 71.12 71.12 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0c769b1c-b52b-4a7f-9028-2d7d9c00e01e")
-		(property "Reference" "C20"
-			(at 71.12 74.168 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22pF"
-			(at 71.12 76.708 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 71.12 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 71.12 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0c9f8348-6798-4555-a4b6-c070f1d0cc34")
-		)
-		(pin "2"
-			(uuid "36f28899-e3fe-4f6b-97ab-42aa08c8b303")
-		)
-		(instances
-			(project "neptune-camera-esp"
-				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5/0926fe47-5ef5-46ea-8672-59359ad1ad72"
-					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -3552,85 +3159,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 170.18 82.55 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "672abfef-2b66-41da-818a-302ba116a507")
-		(property "Reference" "#PWR050"
-			(at 166.37 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 173.99 82.5499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 170.18 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "074ad810-f24f-445c-8e34-16bd21ae34d0")
-		)
-		(instances
-			(project "neptune-camera-esp"
-				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5/0926fe47-5ef5-46ea-8672-59359ad1ad72"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 78.74 55.88 180)
 		(unit 1)
@@ -3959,85 +3487,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 73.66 71.12 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7add21f3-bbc0-40c3-be50-e203e74a0c07")
-		(property "Reference" "#PWR040"
-			(at 80.01 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.47 71.1199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b3a858f8-50db-434b-978b-897c4dc6feb8")
-		)
-		(instances
-			(project "neptune-camera-esp"
-				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5/0926fe47-5ef5-46ea-8672-59359ad1ad72"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 91.44 55.88 180)
 		(unit 1)
@@ -4357,85 +3806,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 82.55 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ae2533e-c19a-448c-957b-bcdc9900cbc9")
-		(property "Reference" "#PWR052"
-			(at 123.19 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 82.5499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a0ab093d-d285-46c1-b218-a6949ca32004")
-		)
-		(instances
-			(project "neptune-camera-esp"
-				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5/0926fe47-5ef5-46ea-8672-59359ad1ad72"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 25.4 26.67 270)
 		(unit 1)
 		(body_style 1)
@@ -4508,85 +3878,6 @@
 			(project "neptune-camera-esp"
 				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5/0926fe47-5ef5-46ea-8672-59359ad1ad72"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 170.18 85.09 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "975dbd75-8771-4a1b-b9ea-d9e75f99352c")
-		(property "Reference" "#PWR051"
-			(at 166.37 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 173.99 85.0899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 170.18 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5ba49828-f76f-42d7-8187-7698ae2fcf30")
-		)
-		(instances
-			(project "neptune-camera-esp"
-				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5/0926fe47-5ef5-46ea-8672-59359ad1ad72"
-					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -5539,154 +4830,6 @@
 			(project "neptune-camera-esp"
 				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5/0926fe47-5ef5-46ea-8672-59359ad1ad72"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "neptune-camera-esp-symbols:ECS-2520MVQ-240-BS-TR")
-		(at 168.91 85.09 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f380a090-6e6a-4ee2-8b1a-ce3588b6716d")
-		(property "Reference" "Y1"
-			(at 149.86 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ECS-2520MVQ-240-BS-TR"
-			(at 149.86 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "neptune-camera-esp-footprints:ECS2520MVQ240BSTR"
-			(at 134.62 -9.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 -109.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "24 MHz XO (Standard) HCMOS Oscillator 1.6V ~ 3.6V Enable/Disable 4-SMD, No Lead"
-			(at 168.91 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.9"
-			(at 134.62 -309.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "520-E2520MVQ240BSTR"
-			(at 134.62 -409.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-2520MVQ-240-BS-TR?qs=i8QVZAFTkqRnDBiWHq9M5A%3D%3D"
-			(at 134.62 -509.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "ECS"
-			(at 134.62 -609.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ECS-2520MVQ-240-BS-TR"
-			(at 134.62 -709.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "4"
-			(uuid "8ce64fb9-4868-4c20-9b0a-4e188b1fffbf")
-		)
-		(pin "3"
-			(uuid "101bb9de-58e5-4cbe-b1f7-c5273b965e48")
-		)
-		(pin "1"
-			(uuid "8bfacd0c-fb8d-4a29-a1ad-dc7d56b55b32")
-		)
-		(pin "2"
-			(uuid "1e4a7c60-346d-4597-9f07-ee6204897e3c")
-		)
-		(instances
-			(project "neptune-camera-esp"
-				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5/0926fe47-5ef5-46ea-8672-59359ad1ad72"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
