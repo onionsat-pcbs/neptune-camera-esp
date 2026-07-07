@@ -11814,7 +11814,7 @@
 		)
 	)
 	(gr_text "AF"
-		(at 96.093 85.409 0)
+		(at 96.998 85.443 0)
 		(layer "B.SilkS")
 		(uuid "71a02310-c36c-4f72-a690-acd594143a09")
 		(effects
