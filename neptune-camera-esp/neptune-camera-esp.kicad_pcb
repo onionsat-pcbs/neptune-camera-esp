@@ -1525,15 +1525,15 @@
 			(uuid "91dc437f-043b-4ed7-b9a3-d251ba25671c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/KEY-SMD_L4.0-W3.0-LS4.9.step"
+		(model "${KIPRJMOD}/3dmodels/KEY-SMD_L4.0-W3.0-LS4.9.step"
 			(offset
-				(xyz 0 0 -0.45)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -5586,15 +5586,15 @@
 			(uuid "8fe030a4-4459-4d08-bf6c-b2a3f2536ae6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EASYEDA_MODELS/KEY-SMD_L4.0-W3.0-LS4.9.step"
+		(model "${KIPRJMOD}/3dmodels/KEY-SMD_L4.0-W3.0-LS4.9.step"
 			(offset
-				(xyz 0 0 -0.45)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -8445,15 +8445,26 @@
 			(uuid "e9d61936-d07a-409e-a9d6-7e3f8fb2009b")
 		)
 		(embedded_fonts no)
-		(model "F33Z-1A7Q1-E8C24.stp"
+		(model "${KIPRJMOD}/3dmodels/F33Z-1A7Q1-E8C24.stp"
 			(offset
-				(xyz 0 18.57999993 0)
+				(xyz 0 18.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -90 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/3dmodels/ov5640.step"
+			(offset
+				(xyz 0 0 0.7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
 			)
 		)
 	)
@@ -9805,7 +9816,7 @@
 			(uuid "1716046d-8463-4551-a934-3431369c0afc")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-S3-WROOM-1U.step"
+		(model "${KIPRJMOD}/3dmodels/ESP32-S3-WROOM-1U.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9813,7 +9824,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -10832,15 +10843,15 @@
 			(uuid "a725c3e0-4a7e-4d98-9edc-11a52fe77412")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x05_P2.54mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3dmodels/HDR-SMD_5P-P2.54-H-F_X6511FRS-19-C85D30.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2 -5 -1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
