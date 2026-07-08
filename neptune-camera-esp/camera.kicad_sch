@@ -1535,6 +1535,12 @@
 		(uuid "61012c0c-b497-4b73-9db7-83c3883012ae")
 	)
 	(junction
+		(at 67.31 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83d08dc6-2ea9-4035-a551-df733d135a25")
+	)
+	(junction
 		(at 91.44 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1730,6 +1736,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 67.31) (xy 74.93 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61498685-c672-4649-b861-fd8b67cd7852")
+	)
+	(wire
+		(pts
 			(xy 50.8 62.23) (xy 52.07 62.23)
 		)
 		(stroke
@@ -1900,7 +1916,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 67.31) (xy 52.07 67.31)
+			(xy 50.8 67.31) (xy 67.31 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2219,7 +2235,7 @@
 	)
 	(hierarchical_label "PCLK"
 		(shape output)
-		(at 52.07 67.31 0)
+		(at 74.93 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2739,6 +2755,84 @@
 			(project "neptune-camera-esp"
 				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5/0926fe47-5ef5-46ea-8672-59359ad1ad72"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f9bcb78-f77e-450a-890e-8282e837774d")
+		(property "Reference" "#PWR048"
+			(at 67.31 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a19ddb9f-d934-4cca-b58a-64b88abfb4cf")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5/0926fe47-5ef5-46ea-8672-59359ad1ad72"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4103,6 +4197,88 @@
 			(project "neptune-camera-esp"
 				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5/0926fe47-5ef5-46ea-8672-59359ad1ad72"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 67.31 69.85 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a982b545-c082-4521-9330-8a91ff9ad4c4")
+		(property "Reference" "C27"
+			(at 64.77 71.1138 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NEFORRASZDBE_DEBUG_22PF"
+			(at 64.77 68.5738 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 67.31 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 67.31 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d53002b-8aeb-46c1-bc6d-378280e62841")
+		)
+		(pin "2"
+			(uuid "ea48c820-ebd1-4a49-bbfd-b133582e72ca")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5/0926fe47-5ef5-46ea-8672-59359ad1ad72"
+					(reference "C27")
 					(unit 1)
 				)
 			)

@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.6"
+      "Version": "10.0.4"
     },
-    "CreationDate": "2026-03-19T22:03:29+01:00"
+    "CreationDate": "2026-07-08T12:26:28+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -45,12 +45,12 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "neptune-camera-esp-GND.gbr",
+      "Path": "neptune-camera-esp-GND1.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "neptune-camera-esp-3V3.gbr",
+      "Path": "neptune-camera-esp-GND2.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
@@ -118,32 +118,32 @@
       "Type": "Dielectric",
       "Thickness": 0.1,
       "Material": "FR4",
-      "Name": "F.Cu/GND",
-      "Notes": "Type: dielectric layer 1 (from F.Cu to GND)"
+      "Name": "F.Cu/GND1",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to GND1)"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "GND"
+      "Name": "GND1"
     },
     {
       "Type": "Dielectric",
       "Thickness": 0.44,
       "Material": "FR4",
-      "Name": "GND/3V3",
-      "Notes": "Type: dielectric layer 2 (from GND to 3V3)"
+      "Name": "GND1/GND2",
+      "Notes": "Type: dielectric layer 2 (from GND1 to GND2)"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "3V3"
+      "Name": "GND2"
     },
     {
       "Type": "Dielectric",
       "Thickness": 0.1,
       "Material": "FR4",
-      "Name": "3V3/B.Cu",
-      "Notes": "Type: dielectric layer 3 (from 3V3 to B.Cu)"
+      "Name": "GND2/B.Cu",
+      "Notes": "Type: dielectric layer 3 (from GND2 to B.Cu)"
     },
     {
       "Type": "Copper",
