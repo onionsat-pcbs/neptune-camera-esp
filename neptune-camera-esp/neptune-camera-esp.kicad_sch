@@ -4067,12 +4067,20 @@
 		(uuid "43ccc851-a98d-49b5-b45d-0e04d8a1e9c6")
 	)
 	(no_connect
+		(at 231.14 133.35)
+		(uuid "443554bb-a7dc-403b-a612-7f1cd3a29326")
+	)
+	(no_connect
 		(at 193.04 40.64)
 		(uuid "4afe4e55-56d1-478c-b314-911abf407133")
 	)
 	(no_connect
 		(at 232.41 35.56)
 		(uuid "4f9a9fff-e906-40c7-ab65-5eeb2bc4568a")
+	)
+	(no_connect
+		(at 231.14 130.81)
+		(uuid "5ecdfb92-c976-46b3-86a0-a9cd7dfdb433")
 	)
 	(no_connect
 		(at 78.74 86.36)
@@ -4658,16 +4666,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 137.16) (xy 226.06 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41a1efba-81fb-49ee-afa8-c89c5c089653")
-	)
-	(wire
-		(pts
 			(xy 91.44 55.88) (xy 93.98 55.88)
 		)
 		(stroke
@@ -4868,16 +4866,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 133.35) (xy 229.87 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "650fa3d4-b3d7-403d-834d-15fa1a14a7c7")
-	)
-	(wire
-		(pts
 			(xy 41.91 152.4) (xy 41.91 153.67)
 		)
 		(stroke
@@ -5055,16 +5043,6 @@
 			(type default)
 		)
 		(uuid "8e1bc3af-a57a-4877-b1d9-9e818d22385c")
-	)
-	(wire
-		(pts
-			(xy 231.14 133.35) (xy 229.87 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f14a4fe-879c-4682-af1d-ca821b1c8d1f")
 	)
 	(wire
 		(pts
@@ -5675,16 +5653,6 @@
 			(type default)
 		)
 		(uuid "f6750f59-7588-441c-8f5c-6e3c5417eaf9")
-	)
-	(wire
-		(pts
-			(xy 226.06 130.81) (xy 231.14 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9e60f96-eb86-4497-9b96-f6847730baba")
 	)
 	(wire
 		(pts
@@ -8135,83 +8103,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 226.06 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3ec38565-0788-462c-a3ca-a73a29b86f34")
-		(property "Reference" "#PWR066"
-			(at 226.06 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 226.06 142.24 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "429f126f-5c42-458a-b547-1b6e4be3cd15")
-		)
-		(instances
-			(project "neptune-camera-esp"
-				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 41.91 125.73 0)
 		(unit 1)
@@ -10052,83 +9943,6 @@
 			(project "neptune-camera-esp"
 				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
 					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 229.87 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6840a1bf-c59a-4808-8fab-9d86a75b0a48")
-		(property "Reference" "#PWR079"
-			(at 229.87 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 229.87 142.24 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5ef61928-a2be-41a4-a397-b0b097da1b79")
-		)
-		(instances
-			(project "neptune-camera-esp"
-				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
-					(reference "#PWR079")
 					(unit 1)
 				)
 			)
