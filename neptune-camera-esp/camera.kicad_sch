@@ -4212,28 +4212,27 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a982b545-c082-4521-9330-8a91ff9ad4c4")
 		(property "Reference" "C27"
-			(at 64.77 71.1138 0)
+			(at 69.596 69.596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "NEFORRASZDBE_DEBUG_22PF"
-			(at 64.77 68.5738 0)
+			(at 69.596 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"

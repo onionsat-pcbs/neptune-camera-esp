@@ -320,6 +320,405 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Micro_SD_Card_Det2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -16.51 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Micro_SD_Card_Det2"
+				(at 16.51 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 52.07 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=&productname=&series=DM3&documenttype=Catalog&lang=en&documentid=D49662_en"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Micro SD Card Socket with two card detection pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector SD microsd"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "microSD*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Micro_SD_Card_Det2_0_1"
+				(polyline
+					(pts
+						(xy -8.89 -8.89) (xy -8.89 11.43) (xy -1.27 11.43) (xy 2.54 15.24) (xy 3.81 15.24) (xy 3.81 13.97)
+						(xy 6.35 13.97) (xy 7.62 15.24) (xy 20.32 15.24) (xy 20.32 -8.89) (xy -8.89 -8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -7.62 10.795)
+					(end -5.08 9.525)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 8.255)
+					(end -5.08 6.985)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 5.715)
+					(end -5.08 4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 3.175)
+					(end -5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 0.635)
+					(end -5.08 -0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -1.905)
+					(end -5.08 -3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -4.445)
+					(end -5.08 -5.715)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -6.985)
+					(end -5.08 -8.255)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 15.24) (xy 16.51 16.51) (xy -19.05 16.51) (xy -19.05 -16.51) (xy 16.51 -16.51) (xy 16.51 -8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Micro_SD_Card_Det2_1_1"
+				(pin bidirectional line
+					(at -22.86 10.16 0)
+					(length 3.81)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 7.62 0)
+					(length 3.81)
+					(name "DAT3/CD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 5.08 0)
+					(length 3.81)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 2.54 0)
+					(length 3.81)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 0 0)
+					(length 3.81)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 -2.54 0)
+					(length 3.81)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -5.08 0)
+					(length 3.81)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -7.62 0)
+					(length 3.81)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -12.7 0)
+					(length 3.81)
+					(name "DET_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -10.16 0)
+					(length 3.81)
+					(name "DET_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -12.7 180)
+					(length 3.81)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x10_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -3391,6 +3790,18 @@
 		(uuid "1a62766d-d0be-4a72-813f-d020120d5867")
 	)
 	(rectangle
+		(start 194.31 81.28)
+		(end 279.4 162.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8be5b31c-acb2-4e86-b4f1-cda1811fe4f5")
+	)
+	(rectangle
 		(start 16.51 16.51)
 		(end 151.13 114.3)
 		(stroke
@@ -3404,7 +3815,7 @@
 	)
 	(rectangle
 		(start 151.13 16.51)
-		(end 259.08 81.28)
+		(end 279.4 81.28)
 		(stroke
 			(width 0)
 			(type default)
@@ -3416,7 +3827,7 @@
 	)
 	(rectangle
 		(start 151.13 81.28)
-		(end 205.74 162.56)
+		(end 194.31 162.56)
 		(stroke
 			(width 0)
 			(type default)
@@ -3459,6 +3870,17 @@
 		)
 		(uuid "c6169442-c419-43ec-bb11-f0f706aafd0f")
 	)
+	(text "SD card"
+		(exclude_from_sim no)
+		(at 195.072 161.798 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left bottom)
+		)
+		(uuid "eaa3cc03-06ad-4874-8fef-fd426f6b7964")
+	)
 	(text "ESP32-S3-WROOM-1-N8R8"
 		(exclude_from_sim no)
 		(at 17.526 113.284 0)
@@ -3489,6 +3911,18 @@
 		(uuid "246f4c99-57e5-4817-b988-7c064f204ce5")
 	)
 	(junction
+		(at 222.25 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2570189a-caab-4044-8408-6d5d0471466f")
+	)
+	(junction
+		(at 212.09 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30d62712-d9e9-48ba-aa81-a462352ee633")
+	)
+	(junction
 		(at 204.47 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3517,6 +3951,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "633694c8-3828-42b4-8318-40c54127d98e")
+	)
+	(junction
+		(at 207.01 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68bdaf60-3d1c-466f-a674-380eb1b33099")
 	)
 	(junction
 		(at 64.77 177.8)
@@ -3561,16 +4001,16 @@
 		(uuid "9662a537-e7a1-4df0-a684-d6a77a8c99ed")
 	)
 	(junction
-		(at 90.17 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1d60817-a69c-4ca6-ac74-e2a6dd35478b")
-	)
-	(junction
 		(at 44.45 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2f24125-e046-47e2-a4bd-2c2979617350")
+	)
+	(junction
+		(at 207.01 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6cdae42-5d23-4f39-a13d-38d605e1d340")
 	)
 	(junction
 		(at 50.8 153.67)
@@ -3603,6 +4043,10 @@
 		(uuid "eee8b110-48f6-4237-8e13-e3975949f6fd")
 	)
 	(no_connect
+		(at 78.74 71.12)
+		(uuid "06065794-f38f-4cdc-8f3a-8080c375e419")
+	)
+	(no_connect
 		(at 219.71 50.8)
 		(uuid "097076f6-bd72-4fb8-8569-f2e179d4941f")
 	)
@@ -3613,6 +4057,10 @@
 	(no_connect
 		(at 232.41 30.48)
 		(uuid "32f444f8-a52a-4ba7-a01b-d542d8e2164b")
+	)
+	(no_connect
+		(at 78.74 68.58)
+		(uuid "3647ac4d-4d38-4bc8-803c-6c9142f52b5a")
 	)
 	(no_connect
 		(at 180.34 33.02)
@@ -3627,6 +4075,10 @@
 		(uuid "4f9a9fff-e906-40c7-ab65-5eeb2bc4568a")
 	)
 	(no_connect
+		(at 78.74 86.36)
+		(uuid "735101fd-184e-4b56-b4a5-54c9b71b0490")
+	)
+	(no_connect
 		(at 193.04 30.48)
 		(uuid "7761a021-ed19-4f7b-a3af-7a3b1317f4ee")
 	)
@@ -3637,6 +4089,10 @@
 	(no_connect
 		(at 180.34 43.18)
 		(uuid "954537dd-3e09-4b12-be7e-85f98ffb23e5")
+	)
+	(no_connect
+		(at 48.26 60.96)
+		(uuid "ab0c5942-1758-46e9-81ad-5f604d737963")
 	)
 	(no_connect
 		(at 193.04 27.94)
@@ -3677,6 +4133,14 @@
 	(no_connect
 		(at 232.41 48.26)
 		(uuid "e6936d29-adbc-4c66-a290-3bdd4b63eb1a")
+	)
+	(no_connect
+		(at 78.74 88.9)
+		(uuid "e87ffc6b-46f1-4dad-bde5-19a5e15e28e9")
+	)
+	(no_connect
+		(at 78.74 66.04)
+		(uuid "f82ddc88-d477-43e2-8fd5-5260c14e3d42")
 	)
 	(no_connect
 		(at 219.71 35.56)
@@ -3784,16 +4248,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 88.9) (xy 90.17 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d358d5c-bbb8-46f4-8245-250b26161c09")
-	)
-	(wire
-		(pts
 			(xy 217.17 36.83) (xy 218.44 36.83)
 		)
 		(stroke
@@ -3801,6 +4255,26 @@
 			(type default)
 		)
 		(uuid "0dcce3b5-7840-4d1b-bb7a-6d2b75d68926")
+	)
+	(wire
+		(pts
+			(xy 207.01 118.11) (xy 212.09 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f9266a3-5d8c-4b8a-bef9-9946370f6981")
+	)
+	(wire
+		(pts
+			(xy 204.47 125.73) (xy 207.01 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "135e574e-33b9-4b73-8d43-1d975b9873d7")
 	)
 	(wire
 		(pts
@@ -3884,6 +4358,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 118.11) (xy 231.14 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b117ac6-bfea-48d0-b760-539866ea3ce6")
+	)
+	(wire
+		(pts
 			(xy 128.27 30.48) (xy 129.54 30.48)
 		)
 		(stroke
@@ -3921,6 +4405,16 @@
 			(type default)
 		)
 		(uuid "219ed61c-d573-4de3-a34d-0253e4969f96")
+	)
+	(wire
+		(pts
+			(xy 274.32 133.35) (xy 275.59 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "227f63c6-6d5f-4bb7-b240-8fbcd142dfc6")
 	)
 	(wire
 		(pts
@@ -3974,6 +4468,36 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 91.44) (xy 48.26 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d9f3a4-9f40-456f-b501-f6dd65a7aee3")
+	)
+	(wire
+		(pts
+			(xy 226.06 128.27) (xy 231.14 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26dccdea-972b-40f0-8876-5ad47acfbbbc")
+	)
+	(wire
+		(pts
+			(xy 219.71 121.92) (xy 219.71 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "273c8b5d-3143-4ebf-a2a1-35780b6d2dce")
+	)
+	(wire
+		(pts
 			(xy 116.84 63.5) (xy 118.11 63.5)
 		)
 		(stroke
@@ -3981,6 +4505,16 @@
 			(type default)
 		)
 		(uuid "27a08ba8-3463-4918-ac97-258e666c6918")
+	)
+	(wire
+		(pts
+			(xy 222.25 111.76) (xy 222.25 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28639426-dc46-482f-9374-a61f27e46616")
 	)
 	(wire
 		(pts
@@ -3994,13 +4528,23 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 88.9) (xy 90.17 90.17)
+			(xy 218.44 121.92) (xy 219.71 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c09c46b-d437-4dfb-961c-37ece5a37bc9")
+		(uuid "2fdb027c-0d08-4097-b65e-5358ddffc7f1")
+	)
+	(wire
+		(pts
+			(xy 45.72 71.12) (xy 48.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "302738e2-566b-49f0-a8f3-f794e9dac7ef")
 	)
 	(wire
 		(pts
@@ -4074,6 +4618,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 113.03) (xy 226.06 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d676a4-cc19-4c13-95bf-af0d4108da9e")
+	)
+	(wire
+		(pts
 			(xy 203.2 67.31) (xy 205.74 67.31)
 		)
 		(stroke
@@ -4091,6 +4645,26 @@
 			(type default)
 		)
 		(uuid "3bbb02b8-d1e2-4e71-80cc-b13d381619b6")
+	)
+	(wire
+		(pts
+			(xy 228.6 110.49) (xy 228.6 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f5f497b-e6f6-4d61-b754-68532b3d1235")
+	)
+	(wire
+		(pts
+			(xy 226.06 137.16) (xy 226.06 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a1efba-81fb-49ee-afa8-c89c5c089653")
 	)
 	(wire
 		(pts
@@ -4131,6 +4705,16 @@
 			(type default)
 		)
 		(uuid "48d0d2e3-d1bd-42ec-84d0-72666cbb3fc7")
+	)
+	(wire
+		(pts
+			(xy 228.6 92.71) (xy 228.6 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b78f24e-7eb4-4f1a-a363-3fa79c19e97d")
 	)
 	(wire
 		(pts
@@ -4254,6 +4838,26 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 125.73) (xy 207.01 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63213c1c-ecb0-4f69-843d-f6af5f7717ea")
+	)
+	(wire
+		(pts
+			(xy 226.06 92.71) (xy 226.06 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63956d76-1027-41ac-88c3-6dd8a9e2c297")
+	)
+	(wire
+		(pts
 			(xy 72.39 152.4) (xy 72.39 153.67)
 		)
 		(stroke
@@ -4261,6 +4865,16 @@
 			(type default)
 		)
 		(uuid "64db0759-54d4-44d8-b52d-d70c47fcc300")
+	)
+	(wire
+		(pts
+			(xy 229.87 133.35) (xy 229.87 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "650fa3d4-b3d7-403d-834d-15fa1a14a7c7")
 	)
 	(wire
 		(pts
@@ -4311,16 +4925,6 @@
 			(type default)
 		)
 		(uuid "6edff98b-8c7d-4acc-a677-40511b1a0ce7")
-	)
-	(wire
-		(pts
-			(xy 90.17 88.9) (xy 93.98 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70d31914-b07d-46f1-b2e5-dbc09969d55b")
 	)
 	(wire
 		(pts
@@ -4424,6 +5028,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 113.03) (xy 226.06 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "884d38a5-bdf0-464d-b560-3f6ba4377d0f")
+	)
+	(wire
+		(pts
 			(xy 46.99 53.34) (xy 48.26 53.34)
 		)
 		(stroke
@@ -4444,6 +5058,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 133.35) (xy 229.87 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f14a4fe-879c-4682-af1d-ca821b1c8d1f")
+	)
+	(wire
+		(pts
 			(xy 116.84 40.64) (xy 116.84 30.48)
 		)
 		(stroke
@@ -4451,6 +5075,16 @@
 			(type default)
 		)
 		(uuid "8fe65203-8baf-4598-87db-8059c1df83f0")
+	)
+	(wire
+		(pts
+			(xy 45.72 68.58) (xy 48.26 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91647f73-8b28-4294-aac1-8f02c26a0530")
 	)
 	(wire
 		(pts
@@ -4501,6 +5135,36 @@
 			(type default)
 		)
 		(uuid "951c63dd-abb2-4883-9fba-b0303350ede1")
+	)
+	(wire
+		(pts
+			(xy 207.01 125.73) (xy 231.14 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "963f24e7-d1da-43ce-ad9a-92fb3f4492e7")
+	)
+	(wire
+		(pts
+			(xy 207.01 114.3) (xy 207.01 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b81d97-a51e-43b8-8d28-48c54e5f60e3")
+	)
+	(wire
+		(pts
+			(xy 212.09 101.6) (xy 212.09 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b599e9-f318-4a40-a390-1b9fd31fe015")
 	)
 	(wire
 		(pts
@@ -4674,6 +5338,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 133.35) (xy 275.59 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b61a6508-71da-4700-859f-7f2ec5a7bda0")
+	)
+	(wire
+		(pts
 			(xy 204.47 73.66) (xy 204.47 72.39)
 		)
 		(stroke
@@ -4730,7 +5404,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c39b5d77-1918-4f8c-8c59-3c4dd9b467f3")
+		(uuid "c446df92-60b2-440b-b059-671574fefb55")
 	)
 	(wire
 		(pts
@@ -4801,6 +5475,16 @@
 			(type default)
 		)
 		(uuid "d052d30f-4ea9-454d-9553-7747897907f6")
+	)
+	(wire
+		(pts
+			(xy 231.14 110.49) (xy 228.6 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1a2e210-5fee-49bb-8ec3-7633ea443dc5")
 	)
 	(wire
 		(pts
@@ -4894,6 +5578,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 115.57) (xy 222.25 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e747dfba-110b-4990-bd39-b36f0a57f956")
+	)
+	(wire
+		(pts
 			(xy 63.5 40.64) (xy 63.5 43.18)
 		)
 		(stroke
@@ -4934,6 +5628,46 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 118.11) (xy 207.01 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee851515-8613-4ed4-b042-25cfc4af8220")
+	)
+	(wire
+		(pts
+			(xy 229.87 123.19) (xy 231.14 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1be1f96-5a2e-4798-a9d7-72f0fab31dd0")
+	)
+	(wire
+		(pts
+			(xy 219.71 120.65) (xy 231.14 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2345524-9c1e-4dca-9a87-984a7089a611")
+	)
+	(wire
+		(pts
+			(xy 222.25 115.57) (xy 231.14 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2c94737-38a4-4202-89bd-81ed23a11e24")
+	)
+	(wire
+		(pts
 			(xy 78.74 93.98) (xy 81.28 93.98)
 		)
 		(stroke
@@ -4941,6 +5675,16 @@
 			(type default)
 		)
 		(uuid "f6750f59-7588-441c-8f5c-6e3c5417eaf9")
+	)
+	(wire
+		(pts
+			(xy 226.06 130.81) (xy 231.14 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e60f96-eb86-4497-9b96-f6847730baba")
 	)
 	(wire
 		(pts
@@ -4971,6 +5715,16 @@
 			(justify right bottom)
 		)
 		(uuid "03a8d0c2-5cfe-415f-b2a9-fd8848cff0a2")
+	)
+	(label "SD_DAT0"
+		(at 204.47 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06402d99-c8c8-4fde-9636-03f5c95b2d99")
 	)
 	(label "D4"
 		(at 179.07 119.38 0)
@@ -5112,15 +5866,15 @@
 		)
 		(uuid "3916d480-3ee9-4d43-a049-d2796b063b62")
 	)
-	(label "D7"
-		(at 81.28 91.44 0)
+	(label "SD_CMD"
+		(at 45.72 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "3a015582-6cf7-45ec-8f73-77d7d28997f4")
+		(uuid "46d8f31d-900c-4245-8afe-fef84680cf9c")
 	)
 	(label "LTE_RESET"
 		(at 45.72 93.98 180)
@@ -5252,6 +6006,16 @@
 		)
 		(uuid "7f21c185-2b70-48f3-a56c-1de3dff0a098")
 	)
+	(label "SD_CLK"
+		(at 218.44 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8431724b-9572-45a2-bf2d-915f7c5b91a0")
+	)
 	(label "I2C_OBC_SCL"
 		(at 34.29 58.42 180)
 		(effects
@@ -5322,6 +6086,16 @@
 		)
 		(uuid "a3b8fa93-44d8-44b6-8f8e-4432fefde247")
 	)
+	(label "SD_CMD"
+		(at 220.98 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aacea765-931e-4d01-b752-1512b14d4416")
+	)
 	(label "USB_DN"
 		(at 179.07 45.72 180)
 		(effects
@@ -5341,6 +6115,16 @@
 			(justify right bottom)
 		)
 		(uuid "b6c3e496-fc94-422c-b96d-51e947388434")
+	)
+	(label "SD_DAT0"
+		(at 45.72 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bff72ea8-1db8-4802-8a40-e00f7b2f7d81")
 	)
 	(label "PCLK"
 		(at 81.28 93.98 0)
@@ -5432,6 +6216,16 @@
 		)
 		(uuid "d9ad577d-4903-49f2-a3c2-81ca08ef624d")
 	)
+	(label "SD_CLK"
+		(at 45.72 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd9e7599-11c8-4219-aa49-8097b31ec930")
+	)
 	(label "HSYNC"
 		(at 179.07 102.87 0)
 		(effects
@@ -5461,6 +6255,16 @@
 			(justify left bottom)
 		)
 		(uuid "f01a1204-855c-43f6-803e-6b2d82719b0f")
+	)
+	(label "D7"
+		(at 81.28 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f072fe75-bf8a-4cc5-a414-fc46b077e1eb")
 	)
 	(label "BOOT"
 		(at 116.84 63.5 180)
@@ -6149,6 +6953,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 212.09 96.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bae5ef4-ac38-4eca-a5f6-79ea5b302fb7")
+		(property "Reference" "#PWR057"
+			(at 212.09 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20db1aa3-97eb-4dc2-af7e-7d8dcaa34444")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 101.6 171.45 180)
 		(unit 1)
 		(body_style 1)
@@ -6220,6 +7102,247 @@
 			(project "neptune-camera-esp"
 				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 228.6 97.79 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "21f92040-4958-4903-9f5c-ab12ca6f5c27")
+		(property "Reference" "R9"
+			(at 229.87 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 229.87 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 228.6 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 228.6 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8cf265a3-5cd4-4cc4-923a-9cb3afcd133a")
+		)
+		(pin "1"
+			(uuid "b9f6484e-a125-497e-ac4e-6be75b4b71ad")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 220.98 128.27 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23836fa5-8df1-4102-8727-decbfc7f67a6")
+		(property "Reference" "#PWR074"
+			(at 224.79 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 217.17 128.2699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 220.98 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99dc8371-08d2-4399-9f41-d623ddc38243")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 226.06 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "27a89a13-7952-4af8-a723-1baa53d163b6")
+		(property "Reference" "R8"
+			(at 224.79 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 224.79 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 226.06 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 226.06 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3ba1996e-1c77-4720-84e6-447fb0dfe1c9")
+		)
+		(pin "1"
+			(uuid "9e4265fb-e01f-4eb0-a7ed-62e1ed3fbe1e")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7012,6 +8135,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 226.06 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3ec38565-0788-462c-a3ca-a73a29b86f34")
+		(property "Reference" "#PWR066"
+			(at 226.06 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 142.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "429f126f-5c42-458a-b547-1b6e4be3cd15")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 41.91 125.73 0)
 		(unit 1)
@@ -7643,6 +8843,161 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 275.59 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53bb3531-647d-4579-a21c-1c5e45d7508b")
+		(property "Reference" "#PWR064"
+			(at 275.59 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 275.59 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 275.59 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "323d831f-c622-4e67-bcc0-845ffe645f0e")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 226.06 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "53fe0026-1d3e-4eef-b4a8-b92021b45df2")
+		(property "Reference" "#PWR075"
+			(at 226.06 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 225.806 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 226.06 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53166ecd-d16c-436f-86c0-b0b73b25bc4b")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 123.19 40.64 270)
 		(unit 1)
@@ -8198,6 +9553,194 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 212.09 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "65df359e-1ca1-4fa6-a710-aa391ee9ecf6")
+		(property "Reference" "C28"
+			(at 209.55 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 209.55 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 212.09 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 212.09 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94570ce5-5878-43e5-9d1d-935abe2142f0")
+		)
+		(pin "2"
+			(uuid "9e23626f-ccd2-45a1-8676-356ebff58d40")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Micro_SD_Card_Det2")
+		(at 254 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "664773fe-214b-46a9-a1de-700d768c403d")
+		(property "Reference" "J4"
+			(at 254.635 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Micro_SD_Card_Det2"
+			(at 254.635 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3D-SF"
+			(at 306.07 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=&productname=&series=DM3&documenttype=Catalog&lang=en&documentid=D49662_en"
+			(at 256.54 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Micro SD Card Socket with two card detection pins"
+			(at 254 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "efac064b-0187-420b-83fb-16284a5866f5")
+		)
+		(pin "5"
+			(uuid "f130bf9a-988e-417c-8bea-1fc6f2b63daa")
+		)
+		(pin "SH"
+			(uuid "8a8b8cb2-7058-49cb-825c-1b87e51fc208")
+		)
+		(pin "6"
+			(uuid "206606e1-d2c9-4cf5-ae51-f9522ddc8eb3")
+		)
+		(pin "7"
+			(uuid "bbe7edc9-a9fb-43cb-a7d8-740eb924e888")
+		)
+		(pin "10"
+			(uuid "e214960c-bcc0-4e60-b26a-e021008b7b17")
+		)
+		(pin "4"
+			(uuid "21b71d30-2594-40a1-82f8-c927a05efeab")
+		)
+		(pin "1"
+			(uuid "491f0881-e03b-42c4-84d5-f7e4a599370b")
+		)
+		(pin "8"
+			(uuid "624fb7af-674c-4c62-96f6-ec0ba7ab1754")
+		)
+		(pin "3"
+			(uuid "4aba863c-f2bc-40fd-a066-376ff2b4abab")
+		)
+		(pin "9"
+			(uuid "d4f2e36f-37aa-423e-9ad5-e0564e25eb4f")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 40.64 180.34 90)
 		(unit 1)
@@ -8509,6 +10052,160 @@
 			(project "neptune-camera-esp"
 				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
 					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6840a1bf-c59a-4808-8fab-9d86a75b0a48")
+		(property "Reference" "#PWR079"
+			(at 229.87 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 142.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ef61928-a2be-41a4-a397-b0b097da1b79")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 228.6 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6a098870-8433-4444-a5dd-2d3849788c66")
+		(property "Reference" "#PWR076"
+			(at 228.6 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 228.6 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 228.6 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dfaef0de-72eb-4f31-8886-40fc605de308")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -9276,6 +10973,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3VA")
+		(at 207.01 132.08 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d2b299b-45b3-4d9b-93be-68bea928acc5")
+		(property "Reference" "#PWR078"
+			(at 207.01 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 207.518 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 207.01 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a7d5a9b-569f-4623-948c-435c24ce5a97")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 31.75 149.86 0)
 		(unit 1)
@@ -9754,6 +11528,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 207.01 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85f61e8c-2e03-499f-89d9-792802e7c82a")
+		(property "Reference" "#PWR056"
+			(at 207.01 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "770f2a36-22fb-4cbb-b643-7fa57e274b5c")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 63.5 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -9984,6 +11836,166 @@
 			(project "neptune-camera-esp"
 				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 223.52 128.27 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d753352-95d4-4e28-8683-f02060742099")
+		(property "Reference" "R7"
+			(at 220.98 130.302 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 220.98 132.842 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 223.52 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 223.52 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ee248291-0171-4c57-a4a1-fe557b7cd625")
+		)
+		(pin "1"
+			(uuid "6982659c-b516-405e-b479-7f877cb89e2c")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 123.19 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9446f6af-25bb-4768-9c11-8518ee4a3a20")
+		(property "Reference" "#PWR063"
+			(at 223.52 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 123.1899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f37d554d-2ec9-46eb-ad5b-5852b2bb4452")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -10306,6 +12318,85 @@
 			(project "neptune-camera-esp"
 				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 205.74 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c7cbb56-1356-4a9f-93d2-9417638e79e8")
+		(property "Reference" "#PWR073"
+			(at 209.55 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 201.93 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 205.74 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77b59fbc-6671-4395-ad57-9b5986b15f73")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -10720,6 +12811,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 222.25 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "adb51db6-a2c1-47bd-9aea-8f52bcfa7b9e")
+		(property "Reference" "R10"
+			(at 220.98 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 220.98 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 222.25 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 222.25 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cd718faf-c296-4b64-99df-b9536b224ac3")
+		)
+		(pin "1"
+			(uuid "bba37a04-3e40-4d79-bf81-7906abde853f")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 232.41 45.72 90)
 		(unit 1)
@@ -10878,6 +13050,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3VA")
+		(at 222.25 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bbb108e4-364b-48c1-8481-74b632e80c38")
+		(property "Reference" "#PWR077"
+			(at 222.25 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 221.742 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 222.25 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ec9da34-d340-4531-aa4b-f439ebde5e02")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 121.92 173.99 180)
 		(unit 1)
@@ -10953,6 +13202,87 @@
 			(project "neptune-camera-esp"
 				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 207.01 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0fa67e8-98ab-49a0-aea0-1aba949e3ff9")
+		(property "Reference" "R11"
+			(at 205.74 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 205.74 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 207.01 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 207.01 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a54ed41f-2768-480d-bc8c-57c2e7ca78b2")
+		)
+		(pin "1"
+			(uuid "6d33153a-a6a9-48fc-b4c1-1fc83911b437")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -11432,6 +13762,87 @@
 			(project "neptune-camera-esp"
 				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 207.01 111.76 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dbfeb90a-01ff-45f5-a335-8f42dd5ba5b0")
+		(property "Reference" "C29"
+			(at 204.47 112.776 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 204.47 110.236 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 207.01 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 207.01 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e29f142-62cf-4bc9-86eb-ed6b7d4944d0")
+		)
+		(pin "2"
+			(uuid "49706bb2-d4af-4cd7-9e96-3495e9c3691c")
+		)
+		(instances
+			(project "neptune-camera-esp"
+				(path "/21f72d0d-5890-47b1-bb90-d92ee48f04f5"
+					(reference "C29")
 					(unit 1)
 				)
 			)
